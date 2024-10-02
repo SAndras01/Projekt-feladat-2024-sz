@@ -1,0 +1,3 @@
+../Core/Modules/GPIO/GPIO.cpp:10:1:GPIO::GPIO(GPIO_TypeDef*, uint16_t)	24	static
+../Core/Modules/GPIO/GPIO.cpp:16:6:void GPIO::digitalWrite(GPIO_PinState)	16	static
+../Core/Modules/GPIO/GPIO.cpp:21:15:GPIO_PinState GPIO::digitalRead()	16	static

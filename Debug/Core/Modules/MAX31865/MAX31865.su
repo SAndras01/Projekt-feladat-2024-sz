@@ -1,0 +1,19 @@
+../Core/Modules/MAX31865/MAX31865.cpp:10:7:float MAX31865::tempFromRTD(uint16_t)	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:17:10:uint16_t MAX31865::RTDFromTemp(float)	32	static
+../Core/Modules/MAX31865/MAX31865.cpp:26:1:MAX31865::MAX31865(SPI_HandleTypeDef*, GPIO*, GPIO*, RTD_type_t)	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:41:19:HAL_StatusTypeDef MAX31865::init(MAX31865_FilterSetting_t)	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:63:19:HAL_StatusTypeDef MAX31865::readNFromAddres(uint8_t, uint8_t*, uint32_t)	32	static
+../Core/Modules/MAX31865/MAX31865.cpp:77:19:HAL_StatusTypeDef MAX31865::writeNFromAddres(uint8_t, uint8_t*, uint32_t)	40	static
+../Core/Modules/MAX31865/MAX31865.cpp:101:6:void MAX31865::attachErrorHandler(MAX31865_ErroHandler)	16	static
+../Core/Modules/MAX31865/MAX31865.cpp:106:6:void MAX31865::setUpperThreshold(float)	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:127:6:void MAX31865::setLowerThreshold(float)	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:148:7:float MAX31865::getUpperThreshold()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:167:7:float MAX31865::getLowerThreshold()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:186:7:float MAX31865::singleMeas()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:224:6:void MAX31865::startContinousMeas()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:246:6:void MAX31865::stopContinousMeas()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:268:7:float MAX31865::getTemp()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:297:6:void MAX31865::runAutofaultDetection()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:362:6:void MAX31865::startManualfaultDetectionCycle()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:390:6:void MAX31865::endManualfaultDetectionCycle()	24	static
+../Core/Modules/MAX31865/MAX31865.cpp:455:6:bool MAX31865::faultReadout()	24	static

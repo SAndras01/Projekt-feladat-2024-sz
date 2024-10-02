@@ -1,0 +1,15 @@
+../Core/Modules/MeasStoreage/MS.cpp:10:19:HAL_StatusTypeDef write2EEPROM(I2C_HandleTypeDef*, uint16_t, uint16_t, uint16_t, uint8_t*, uint16_t, uint32_t, uint8_t, uint8_t)	48	static
+../Core/Modules/MeasStoreage/MS.cpp:26:19:HAL_StatusTypeDef readFromEEPROM(I2C_HandleTypeDef*, uint16_t, uint16_t, uint16_t, uint8_t*, uint16_t, uint32_t, uint8_t, uint8_t)	48	static
+../Core/Modules/MeasStoreage/MS.cpp:42:19:HAL_StatusTypeDef writeMultiPage(I2C_HandleTypeDef*, uint8_t, uint16_t, uint8_t*, uint16_t, uint8_t)	48	static
+../Core/Modules/MeasStoreage/MS.cpp:83:19:HAL_StatusTypeDef deleteRegion(I2C_HandleTypeDef*, uint8_t, uint16_t, uint16_t, uint8_t)	80	dynamic
+../Core/Modules/MeasStoreage/MS.cpp:128:1:MeasurementStorage::MeasurementStorage(I2C_HandleTypeDef*, uint8_t, uint8_t, uint16_t)	24	static
+../Core/Modules/MeasStoreage/MS.cpp:136:6:void MeasurementStorage::init(uint64_t)	32	static
+../Core/Modules/MeasStoreage/MS.cpp:146:6:void MeasurementStorage::incrementCounter()	48	static
+../Core/Modules/MeasStoreage/MS.cpp:173:6:void MeasurementStorage::resetCounter()	48	static
+../Core/Modules/MeasStoreage/MS.cpp:188:6:void MeasurementStorage::setTimestamp(uint64_t)	56	static
+../Core/Modules/MeasStoreage/MS.cpp:202:6:void MeasurementStorage::setMaxSize(uint16_t)	48	static
+../Core/Modules/MeasStoreage/MS.cpp:216:10:uint16_t MeasurementStorage::readCounter()	48	static
+../Core/Modules/MeasStoreage/MS.cpp:233:10:uint64_t MeasurementStorage::readTimestamp()	56	static
+../Core/Modules/MeasStoreage/MS.cpp:250:10:uint16_t MeasurementStorage::getMaxSize()	48	static
+../Core/Modules/MeasStoreage/MS.cpp:267:6:void MeasurementStorage::addEntry(MeasEntry)	56	static
+../Core/Modules/MeasStoreage/MS.cpp:284:6:bool MeasurementStorage::getEntryAt(uint16_t, MeasEntry*)	64	static
