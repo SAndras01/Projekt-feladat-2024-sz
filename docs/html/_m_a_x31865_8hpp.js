@@ -10,6 +10,7 @@ var _m_a_x31865_8hpp =
     [ "check_SPI_error", "_m_a_x31865_8hpp.html#ae9f56ae13236596b23a553b3264189d0", null ],
     [ "check_VREFINneg_greater_0p85_x_VBIAS", "_m_a_x31865_8hpp.html#a39f45fad13060932827202f9ac3fb8f8", null ],
     [ "check_VREFINneg_smaller_0p85_x_VBIAS_Force_Open", "_m_a_x31865_8hpp.html#ab34dd021f3ee489079d512a50304e8a4", null ],
+    [ "R_REF", "_m_a_x31865_8hpp.html#a68d2d2c24973761c0090644393e8494e", null ],
     [ "TIMECONSTANT_DELAY", "_m_a_x31865_8hpp.html#afdcfd91da34151f3a6b9a9c156d9bbfb", null ],
     [ "MAX31865_ErroHandler", "_m_a_x31865_8hpp.html#a67e2defb68e268cbb5e46cbf6d962239", null ],
     [ "MAX31865_ErrorCode_t", "_m_a_x31865_8hpp.html#a733bca3ecafa7954c5bbfaabc2d5fd88", [

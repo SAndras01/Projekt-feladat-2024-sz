@@ -14,7 +14,8 @@ var _m_s_8hpp =
       [ "Overflow_write_error", "_m_s_8hpp.html#afdde500fa7232d3b26c6dee750917669acb4ed801c1258f333ce88e59ba82a9fe", null ],
       [ "Overflow_read_error", "_m_s_8hpp.html#afdde500fa7232d3b26c6dee750917669ac815c274f8d737c8d8ca824bf5b8462c", null ],
       [ "Empty_MS_error", "_m_s_8hpp.html#afdde500fa7232d3b26c6dee750917669aa14c568b02afba58092b03728eec4608", null ],
-      [ "I2C_error", "_m_s_8hpp.html#afdde500fa7232d3b26c6dee750917669ab45e7c10c7a64d497ca56f6078f193a9", null ]
+      [ "I2C_error", "_m_s_8hpp.html#afdde500fa7232d3b26c6dee750917669ab45e7c10c7a64d497ca56f6078f193a9", null ],
+      [ "Maxsize_error", "_m_s_8hpp.html#afdde500fa7232d3b26c6dee750917669a567917d3066552f39cb5c1e9faff96b1", null ]
     ] ],
     [ "deleteRegion", "_m_s_8hpp.html#aaadff56d524dc8a53b773607443ad489", null ],
     [ "readFromEEPROM", "_m_s_8hpp.html#aa79fd5a9db8a51a806fa3fb34fea65b8", null ],

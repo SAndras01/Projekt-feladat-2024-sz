@@ -9,7 +9,7 @@
 
 float MAX31865::tempFromRTD(uint16_t rtdValue_p)
 {
-    float resistance = (rtdValue_p >> 1) * 430.0 / 32768.0; // 430.0 value of reference resistor
+    float resistance = (rtdValue_p >> 1) * R_REF / 32768.0; // 430.0 value of reference resistor
     float temperature = (resistance - r0) / 0.385; // 0.385 is the temperature coefficient
     return temperature;
 }
@@ -17,7 +17,7 @@ float MAX31865::tempFromRTD(uint16_t rtdValue_p)
 uint16_t MAX31865::RTDFromTemp(float tempValue_p)
 {
     float resistance = tempValue_p * 0.385 + r0;
-    uint16_t rtdValue = static_cast<uint16_t>((resistance / 430.0) * 32768.0);
+    uint16_t rtdValue = static_cast<uint16_t>((resistance / R_REF) * 32768.0);
 
     //15 bit RTD value, LSB is do not care
     return rtdValue << 1;

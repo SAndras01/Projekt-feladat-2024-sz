@@ -12,4 +12,4 @@
 ../Core/Modules/MeasStoreage/MS.cpp:233:10:uint64_t MeasurementStorage::readTimestamp()	3
 ../Core/Modules/MeasStoreage/MS.cpp:250:10:uint16_t MeasurementStorage::getMaxSize()	3
 ../Core/Modules/MeasStoreage/MS.cpp:267:6:void MeasurementStorage::addEntry(MeasEntry)	2
-../Core/Modules/MeasStoreage/MS.cpp:284:6:bool MeasurementStorage::getEntryAt(uint16_t, MeasEntry*)	5
+../Core/Modules/MeasStoreage/MS.cpp:284:6:bool MeasurementStorage::getEntryAt(uint16_t, MeasEntry*)	8

@@ -64,8 +64,8 @@ struct MeasEntry
 {
     uint8_t  measID;  ///< Measurement ID.
     uint16_t deltaT;  ///< Time delta of the measurement.
-    uint16_t measData; ///< The actual measurement data.
-    static const uint8_t len = sizeof(uint8_t) + sizeof(uint16_t) + sizeof(uint16_t); ///< Length of the measurement entry.
+    uint32_t measData; ///< The actual measurement data.
+    static const uint8_t len = sizeof(uint8_t) + sizeof(uint16_t) + sizeof(uint32_t); ///< Length of the measurement entry.
 };
 
 // Forward declaration of MeasurementStorage class
@@ -81,6 +81,7 @@ typedef enum{
     Overflow_read_error  = 0b0000000000000010,  /*!< Read address exceeds maximum size. */
     Empty_MS_error       = 0b0000000000000100,  /*!< Storage is empty, read operation not possible. */
     I2C_error            = 0b0000000000001000,  /*!< I2C communication error. */
+    Maxsize_error        = 0b0000000000010000,  /*!< I2C communication error. */
 } MS_ErrorCode_t;
 
 

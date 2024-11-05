@@ -271,7 +271,7 @@ void MeasurementStorage::addEntry(MeasEntry MeasEntry_p)
 
 	memcpy((uint8_t*)(EntryBuffer), 									&(MeasEntry_p.measID), 		sizeof(uint8_t));
 	memcpy((uint8_t*)(EntryBuffer+sizeof(uint8_t)), 					&(MeasEntry_p.deltaT), 		sizeof(uint16_t));
-	memcpy((uint8_t*)(EntryBuffer+sizeof(uint8_t)+sizeof(uint16_t)), 	&(MeasEntry_p.measData), 	sizeof(uint16_t));
+	memcpy((uint8_t*)(EntryBuffer+sizeof(uint8_t)+sizeof(uint16_t)), 	&(MeasEntry_p.measData), 	sizeof(uint32_t));
 
 	uint16_t counter = readCounter();
 	uint16_t EntryAddr = pageLen + (counter * MeasEntry::len);
@@ -285,6 +285,7 @@ bool MeasurementStorage::getEntryAt(uint16_t location_p, MeasEntry* entryBuffer_
 {
 	uint16_t errors = 0;
 	uint16_t count = readCounter();
+	uint16_t maxSize = getMaxSize();
 
 	//Want to read outside of boundaries. -1, as counter of 0 means 0 stored, the "writer head" is set to 0, where as location starts from 0
 	if(count == 0)
@@ -293,8 +294,18 @@ bool MeasurementStorage::getEntryAt(uint16_t location_p, MeasEntry* entryBuffer_
 		{
 			errors += Empty_MS_error;
 			errorHandler(this, errors);
-			return false;
 		}
+		return false;
+	}
+
+	else if( (location_p > maxSize-1) or (count > maxSize))
+	{
+		if( errorHandler != NULL)
+		{
+			errors += Maxsize_error;
+			errorHandler(this, errors);
+		}
+		return false;
 	}
 
 	else if(location_p > count-1)
@@ -303,8 +314,8 @@ bool MeasurementStorage::getEntryAt(uint16_t location_p, MeasEntry* entryBuffer_
 		{
 			errors += Overflow_read_error;
 			errorHandler(this, errors);
-			return false;
 		}
+		return false;
 	}
 
 	uint16_t EntryAddr = pageLen + (location_p * MeasEntry::len);
@@ -315,7 +326,7 @@ bool MeasurementStorage::getEntryAt(uint16_t location_p, MeasEntry* entryBuffer_
 
 	memcpy(&entryBuffer_p->measID, 		(uint8_t*)(readBuffer), 									sizeof(uint8_t));
 	memcpy(&entryBuffer_p->deltaT, 		(uint8_t*)(readBuffer+sizeof(uint8_t)),						sizeof(uint16_t));
-	memcpy(&entryBuffer_p->measData,	(uint8_t*)(readBuffer+sizeof(uint8_t)+sizeof(uint16_t)),	sizeof(uint16_t));
+	memcpy(&entryBuffer_p->measData,	(uint8_t*)(readBuffer+sizeof(uint8_t)+sizeof(uint16_t)),	sizeof(uint32_t));
 
 	return true;
 }

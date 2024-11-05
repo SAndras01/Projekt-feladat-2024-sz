@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['deleteregion_0',['deleteRegion',['../_m_s_8cpp.html#aaadff56d524dc8a53b773607443ad489',1,'deleteRegion(I2C_HandleTypeDef *I2Ccontroller, uint8_t EEPROMAddress, uint16_t start, uint16_t len, uint8_t pageLen):&#160;MS.cpp'],['../_m_s_8hpp.html#aaadff56d524dc8a53b773607443ad489',1,'deleteRegion(I2C_HandleTypeDef *I2Ccontroller, uint8_t EEPROMAddress, uint16_t start, uint16_t len, uint8_t pageLen):&#160;MS.cpp']]],
-  ['digitalread_1',['digitalRead',['../class_g_p_i_o.html#ae74306acedd3a7ba458092df2f20d3dc',1,'GPIO']]],
-  ['digitalwrite_2',['digitalWrite',['../class_g_p_i_o.html#a4d6982f105c6da453791d44706b7ef0f',1,'GPIO']]]
+  ['addentry_0',['addEntry',['../class_measurement_storage.html#a88c335b2ea092d79725ea6f8617def24',1,'MeasurementStorage']]],
+  ['attacherrorhandler_1',['attachErrorHandler',['../class_m_a_x31865.html#a333435bff865e18e73314c77a4aba67c',1,'MAX31865']]],
+  ['autodetect_2',['autoDetect',['../classmeas_station_1_1_meas_station.html#a6c1c885cf6569e7708c294f1222c7d7a',1,'measStation::MeasStation']]]
 ];
