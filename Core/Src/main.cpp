@@ -300,8 +300,6 @@ int main(void)
   uint8_t devices[128];
   i2cScann(&hi2c1, devices);
 
-  myMS.init(12345678987654321012);
-
 /*
   deleteRegion(&hi2c1, 80, 0, 256, 128);
 
@@ -352,7 +350,7 @@ int main(void)
 		{
 			case MEAS:
 			{
-				if(onEntry_meas)
+				if(onEntry_meas)//Start the timer
 				{
 					HAL_TIM_Base_Start_IT(&htim3);
 					onEntry_meas = false;
@@ -360,7 +358,7 @@ int main(void)
 					currentCommState = IDLE; //The next time COMM state is entered it will be idle
 				}
 
-				if(timeInterruptTick)
+				if(timeInterruptTick)//Storing the Data
 				{
 					float tempMeas = myPT100.getTemp();
 					uint32_t data32;
@@ -385,6 +383,7 @@ int main(void)
 					timeInterruptTick = false;
 				}
 
+				//Enter sleep mode
 				HAL_SuspendTick();
 				HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
 				//...

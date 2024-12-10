@@ -1,0 +1,5 @@
+<map id="writeMultiPage" name="writeMultiPage">
+<area shape="rect" id="Node000001" title="Writes data to EEPROM across multiple pages." alt="" coords="199,13,306,40"/>
+<area shape="rect" id="Node000002" href="$class_measurement_storage.html#a88c335b2ea092d79725ea6f8617def24" title="Adds a measurement entry to the storage." alt="" coords="5,5,151,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,29,151,29,151,24,183,24"/>
+</map>

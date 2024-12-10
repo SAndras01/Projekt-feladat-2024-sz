@@ -1,0 +1,10 @@
+<map id="measStation.MeasStation.initStorage" name="measStation.MeasStation.initStorage">
+<area shape="rect" id="Node000001" title="Initializes the storage on the device with the current time." alt="" coords="5,35,198,77"/>
+<area shape="rect" id="Node000002" href="$classmeas_station_1_1_meas_station.html#a5e56980f56a700b0ebd79a975fc4831e" title="Sends a command to the device, without returning any response." alt="" coords="508,5,684,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,48,492,30,492,35,198,53"/>
+<area shape="rect" id="Node000003" href="$classmeas_station_1_1_meas_station.html#a049ec03f11f968a40bf3feeba1edfa4d" title="Enter the COMM mode of the device." alt="" coords="246,64,450,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,65,230,69,230,74,198,70"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="440,61,492,48,493,54,442,66"/>
+<area shape="rect" id="Node000004" href="$classmeas_station_1_1_meas_station.html#a639d5905cd6f4d12fec7a67310438570" title="Sends a command to the device and returns the first line." alt="" coords="498,72,694,115"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="451,86,483,87,483,92,450,91"/>
+</map>

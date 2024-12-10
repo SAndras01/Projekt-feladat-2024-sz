@@ -13,5 +13,6 @@ var searchData=
   ['check_5fspi_5ferror_10',['check_SPI_error',['../_m_a_x31865_8hpp.html#ae9f56ae13236596b23a553b3264189d0',1,'MAX31865.hpp']]],
   ['check_5fvrefinneg_5fgreater_5f0p85_5fx_5fvbias_11',['check_VREFINneg_greater_0p85_x_VBIAS',['../_m_a_x31865_8hpp.html#a39f45fad13060932827202f9ac3fb8f8',1,'MAX31865.hpp']]],
   ['check_5fvrefinneg_5fsmaller_5f0p85_5fx_5fvbias_5fforce_5fopen_12',['check_VREFINneg_smaller_0p85_x_VBIAS_Force_Open',['../_m_a_x31865_8hpp.html#ab34dd021f3ee489079d512a50304e8a4',1,'MAX31865.hpp']]],
-  ['counter_5faddress_13',['COUNTER_ADDRESS',['../_m_s_8hpp.html#af24bc0046aa237e0be58364e8d2348fb',1,'MS.hpp']]]
+  ['commands_13',['Commands',['../index.html#autotoc_md1',1,'']]],
+  ['counter_5faddress_14',['COUNTER_ADDRESS',['../_m_s_8hpp.html#af24bc0046aa237e0be58364e8d2348fb',1,'MS.hpp']]]
 ];

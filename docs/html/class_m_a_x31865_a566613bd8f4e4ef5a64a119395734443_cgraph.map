@@ -1,0 +1,5 @@
+<map id="MAX31865::singleMeas" name="MAX31865::singleMeas">
+<area shape="rect" id="Node000001" title="Get a single measurement." alt="" coords="5,5,165,32"/>
+<area shape="rect" id="Node000002" href="$class_m_a_x31865.html#a7083ec7af1c2c17b074a7284ac9f53de" title="Get the value of the device&#39;s temperature register converted into celsius." alt="" coords="213,5,356,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,16,197,16,197,21,165,21"/>
+</map>

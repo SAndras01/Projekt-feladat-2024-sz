@@ -1,0 +1,13 @@
+<map id="measStation.MeasStation._send_command_single_reply" name="measStation.MeasStation._send_command_single_reply">
+<area shape="rect" id="Node000001" title="Sends a command to the device and returns the first line." alt="" coords="498,72,694,115"/>
+<area shape="rect" id="Node000002" href="$classmeas_station_1_1_meas_station.html#a6c1c885cf6569e7708c294f1222c7d7a" title="Automatically detects the COM&#45;port that is used by the device #." alt="" coords="248,5,448,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="499,70,429,51,431,46,500,65"/>
+<area shape="rect" id="Node000004" href="$classmeas_station_1_1_meas_station.html#a049ec03f11f968a40bf3feeba1edfa4d" title="Enter the COMM mode of the device." alt="" coords="246,72,450,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="482,96,451,96,451,91,482,91"/>
+<area shape="rect" id="Node000006" href="$classmeas_station_1_1_meas_station.html#a737a8d96994273f055fc72dd02fcea05" title="Enter the MEAS mode of the device." alt="" coords="246,139,450,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="500,122,431,141,429,135,499,117"/>
+<area shape="rect" id="Node000003" href="$classmeas_station_1_1_meas_station.html#a87d1850c05461da9f681d702d58d639a" title="Constructor for the MeasStation class." alt="" coords="14,5,189,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="232,29,189,29,189,24,232,24"/>
+<area shape="rect" id="Node000005" href="$classmeas_station_1_1_meas_station.html#ab6a36c0b117066ce0235bb1d06bd2639" title="Initializes the storage on the device with the current time." alt="" coords="5,72,198,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="230,96,198,96,198,91,230,91"/>
+</map>

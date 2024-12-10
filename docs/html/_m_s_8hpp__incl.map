@@ -1,0 +1,7 @@
+<map id="D:/Projektek/ST32Projektek/ProjektFeladat/Core/Modules/MeasStoreage/MS.hpp" name="D:/Projektek/ST32Projektek/ProjektFeladat/Core/Modules/MeasStoreage/MS.hpp">
+<area shape="rect" id="Node000001" title="Interface for handling measurement storage in EEPROM." alt="" coords="5,5,200,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="13,112,77,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,66,64,100,59,97,82,63"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="101,112,218,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,63,146,97,141,100,119,66"/>
+</map>

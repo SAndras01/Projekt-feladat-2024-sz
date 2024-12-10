@@ -1,0 +1,7 @@
+<map id="measStation.MeasStation.__init__" name="measStation.MeasStation.__init__">
+<area shape="rect" id="Node000001" title="Constructor for the MeasStation class." alt="" coords="5,5,181,48"/>
+<area shape="rect" id="Node000002" href="$classmeas_station_1_1_meas_station.html#a6c1c885cf6569e7708c294f1222c7d7a" title="Automatically detects the COM&#45;port that is used by the device #." alt="" coords="229,5,429,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,24,213,24,213,29,181,29"/>
+<area shape="rect" id="Node000003" href="$classmeas_station_1_1_meas_station.html#a639d5905cd6f4d12fec7a67310438570" title="Sends a command to the device and returns the first line." alt="" coords="477,5,673,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,24,462,24,462,29,430,29"/>
+</map>

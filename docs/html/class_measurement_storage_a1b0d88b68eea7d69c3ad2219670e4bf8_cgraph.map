@@ -1,0 +1,11 @@
+<map id="MeasurementStorage::getEntryAt" name="MeasurementStorage::getEntryAt">
+<area shape="rect" id="Node000001" title="Retrieves a measurement entry at a specific location." alt="" coords="5,64,151,107"/>
+<area shape="rect" id="Node000002" href="$class_measurement_storage.html#a6d9233ba5fdfd3fdc5b523663643ca0f" title="Gets the maximum size of the storage." alt="" coords="199,5,344,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,61,184,50,185,55,151,66"/>
+<area shape="rect" id="Node000003" href="$_m_s_8cpp.html#a93e44e737be9c52b945b82fb085fd604" title="Reads data from EEPROM with multiple retry attempts." alt="" coords="392,72,526,99"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="151,83,376,83,376,88,151,88"/>
+<area shape="rect" id="Node000004" href="$class_measurement_storage.html#aded28c09e16be9c53596cb7fd84c785e" title="Reads the current counter value." alt="" coords="199,123,344,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,105,185,115,184,120,150,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,46,401,64,399,69,341,51"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="341,120,399,101,401,106,342,125"/>
+</map>

@@ -17,7 +17,7 @@
 #include "stm32f4xx_hal.h"
 #include <stdint.h>
 
-#define R_REF 432
+#define R_REF 423
 
 /// Delay after fault check to let the circuit stabilize
 #define TIMECONSTANT_DELAY 100

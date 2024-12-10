@@ -25,6 +25,8 @@
 var NAVTREE =
 [
   [ "Project work 2024", "index.html", [
+    [ "About the project", "index.html#autotoc_md0", null ],
+    [ "Commands", "index.html#autotoc_md1", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],

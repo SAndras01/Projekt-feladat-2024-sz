@@ -1,0 +1,5 @@
+<map id="MeasurementStorage::getMaxSize" name="MeasurementStorage::getMaxSize">
+<area shape="rect" id="Node000001" title="Gets the maximum size of the storage." alt="" coords="199,5,344,48"/>
+<area shape="rect" id="Node000002" href="$class_measurement_storage.html#a1b0d88b68eea7d69c3ad2219670e4bf8" title="Retrieves a measurement entry at a specific location." alt="" coords="5,5,151,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,29,151,29,151,24,183,24"/>
+</map>

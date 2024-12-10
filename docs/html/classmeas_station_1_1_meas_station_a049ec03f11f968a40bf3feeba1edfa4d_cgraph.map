@@ -1,0 +1,7 @@
+<map id="measStation.MeasStation.enterCommMode" name="measStation.MeasStation.enterCommMode">
+<area shape="rect" id="Node000001" title="Enter the COMM mode of the device." alt="" coords="5,39,210,81"/>
+<area shape="rect" id="Node000002" href="$classmeas_station_1_1_meas_station.html#a5e56980f56a700b0ebd79a975fc4831e" title="Sends a command to the device, without returning any response." alt="" coords="268,5,444,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,44,252,38,253,43,211,49"/>
+<area shape="rect" id="Node000003" href="$classmeas_station_1_1_meas_station.html#a639d5905cd6f4d12fec7a67310438570" title="Sends a command to the device and returns the first line." alt="" coords="258,72,454,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,71,243,75,242,81,210,76"/>
+</map>

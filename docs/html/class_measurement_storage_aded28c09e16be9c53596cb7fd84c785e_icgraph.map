@@ -1,0 +1,7 @@
+<map id="MeasurementStorage::readCounter" name="MeasurementStorage::readCounter">
+<area shape="rect" id="Node000001" title="Reads the current counter value." alt="" coords="199,39,344,81"/>
+<area shape="rect" id="Node000002" href="$class_measurement_storage.html#a88c335b2ea092d79725ea6f8617def24" title="Adds a measurement entry to the storage." alt="" coords="5,5,151,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,47,151,42,152,37,184,42"/>
+<area shape="rect" id="Node000003" href="$class_measurement_storage.html#a1b0d88b68eea7d69c3ad2219670e4bf8" title="Retrieves a measurement entry at a specific location." alt="" coords="5,72,151,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,78,152,83,151,78,183,73"/>
+</map>

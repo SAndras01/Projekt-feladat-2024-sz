@@ -1,0 +1,7 @@
+<map id="D:/Projektek/ST32Projektek/ProjektFeladat/Core/Modules/MAX31865/MAX31865_Regmap.hpp" name="D:/Projektek/ST32Projektek/ProjektFeladat/Core/Modules/MAX31865/MAX31865_Regmap.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,244,64"/>
+<area shape="rect" id="Node000002" href="$_m_a_x31865_8hpp.html" title="Interface for MAX31865 RTD&#45;to&#45;Digital converter." alt="" coords="27,112,222,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,80,127,112,122,112,122,80"/>
+<area shape="rect" id="Node000003" href="$_m_a_x31865_8cpp.html" title=" " alt="" coords="27,219,222,277"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,186,127,218,122,218,122,186"/>
+</map>

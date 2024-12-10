@@ -1,0 +1,5 @@
+<map id="measStation.MeasStation.autoDetect" name="measStation.MeasStation.autoDetect">
+<area shape="rect" id="Node000001" title="Automatically detects the COM&#45;port that is used by the device #." alt="" coords="229,5,429,48"/>
+<area shape="rect" id="Node000002" href="$classmeas_station_1_1_meas_station.html#a87d1850c05461da9f681d702d58d639a" title="Constructor for the MeasStation class." alt="" coords="5,5,181,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,29,181,29,181,24,213,24"/>
+</map>

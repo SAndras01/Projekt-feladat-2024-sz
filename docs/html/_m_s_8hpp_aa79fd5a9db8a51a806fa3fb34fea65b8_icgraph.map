@@ -1,0 +1,15 @@
+<map id="readFromEEPROM" name="readFromEEPROM">
+<area shape="rect" id="Node000001" title="Reads data from EEPROM with multiple retry attempts." alt="" coords="392,68,526,94"/>
+<area shape="rect" id="Node000002" href="$class_measurement_storage.html#a1b0d88b68eea7d69c3ad2219670e4bf8" title="Retrieves a measurement entry at a specific location." alt="" coords="5,26,151,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="428,61,389,36,343,17,292,9,239,10,189,18,145,28,143,23,188,12,239,5,292,4,345,12,392,31,431,56"/>
+<area shape="rect" id="Node000003" href="$class_measurement_storage.html#a6d9233ba5fdfd3fdc5b523663643ca0f" title="Gets the maximum size of the storage." alt="" coords="199,26,344,69"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="376,69,344,63,345,58,377,64"/>
+<area shape="rect" id="Node000004" href="$class_measurement_storage.html#aded28c09e16be9c53596cb7fd84c785e" title="Reads the current counter value." alt="" coords="199,93,344,136"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="377,98,345,104,344,99,376,93"/>
+<area shape="rect" id="Node000006" href="$class_measurement_storage.html#a08f208cd8ecda69c6d36488dcb646b22" title="Reads the stored timestamp from EEPROM." alt="" coords="199,160,344,202"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="424,105,345,150,323,161,320,157,343,145,421,100"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="183,50,151,50,151,45,183,45"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="193,90,141,72,143,67,194,85"/>
+<area shape="rect" id="Node000005" href="$class_measurement_storage.html#a88c335b2ea092d79725ea6f8617def24" title="Adds a measurement entry to the storage." alt="" coords="5,93,151,136"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="183,117,151,117,151,112,183,112"/>
+</map>

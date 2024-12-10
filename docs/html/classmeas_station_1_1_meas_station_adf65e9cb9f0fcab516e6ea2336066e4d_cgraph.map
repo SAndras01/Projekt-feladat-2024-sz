@@ -1,0 +1,5 @@
+<map id="measStation.MeasStation.setMeasFreq" name="measStation.MeasStation.setMeasFreq">
+<area shape="rect" id="Node000001" title="Set how often a measurement should be taken in seconds." alt="" coords="5,5,199,48"/>
+<area shape="rect" id="Node000002" href="$classmeas_station_1_1_meas_station.html#a5e56980f56a700b0ebd79a975fc4831e" title="Sends a command to the device, without returning any response." alt="" coords="247,5,423,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,24,231,24,231,29,199,29"/>
+</map>

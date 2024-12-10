@@ -1,0 +1,5 @@
+<map id="measStation.MeasStation.enterCommMode" name="measStation.MeasStation.enterCommMode">
+<area shape="rect" id="Node000001" title="Enter the COMM mode of the device." alt="" coords="246,5,450,48"/>
+<area shape="rect" id="Node000002" href="$classmeas_station_1_1_meas_station.html#ab6a36c0b117066ce0235bb1d06bd2639" title="Initializes the storage on the device with the current time." alt="" coords="5,5,198,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,29,198,29,198,24,230,24"/>
+</map>
